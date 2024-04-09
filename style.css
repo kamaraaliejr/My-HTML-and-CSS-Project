@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+/* header cover image */
+.container_header{
+    background-image:linear-gradient(rgba(4, 22, 30, 0.7),rgba(4, 27, 30, 0.7)),url(../images/Featured-Image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+}
+/*  end of header cover image */
+
+/* navigation links & logo section */
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ul,li,and a section */
+ul, li, a{
+    display: inline-block;
+    margin: 20px 10px;
+    color:white;
+    height: 5vh;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: capitalize; 
+} 
+/*  end of ul,li,and a section */
+
+nav{
+    margin-right: 4rem;
+    padding: 8px;
+    margin-bottom: 2rem;
+}
+
+   
+
+/* logo styling */
+#logo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 6rem;
+}
+/* end of logo styling */
+
+/* cover image text */
+#text{
+    text-align: center;
+    
+}
+
+.SS{
+    color: white;
+    margin-top: 3rem;
+}
+#csp{
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    text-transform: capitalize;   
+}/*end of cover image text */
+
+/* end of navigation links & logo section */
+
+
+.preprodocts{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+     margin-top: 2rem; 
+    background-color: whitesmoke;
+}
+
+.preprodocts .pre_box{
+    width: 100%;
+    height: 30rem;
+    margin: 3rem;
+    background-color: whitesmoke;
+    overflow:scroll;
+}
+
+.pre_box img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.pre_box p{
+    line-height: 1.5rem;
+}
+
+/* sliding_image section */
+.sliding_image section{
+    width: 100%;
+    height: 90vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+/* sliding_image section */
+
+
+
+
+/* computer images chinging section */
+.sliding-image{
+    width: 50%;
+    height: 90vh;
+   
+}
+
+.text{
+    height: 90vh;
+    width: 100%;
+    background-image: url(../images/alie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes animate{
+    0%{
+        background-image: url(../images/0222-m007-25-01-as244466278);
+    } 
+        20%{
+            background-image:url(../images/dexktop\ 3.jpg);
+        }
+
+        60%{
+            background-image: url(../images/JZY5VvtGUhq3qoAiJYHV2A.jpg);
+        }
+
+        80%{
+            background-image: url(../images/Featured-Image2.jpg) ;
+        }
+
+        100%{
+            background-image: url(../images/Gear-Laptop-Guide-617940420.jpg);
+        }
+    
+}
+
+/*  end of computer images chinging section  */
+
+
+/* imagings sliding paragraph section */
+#WWH{
+    margin-left: 2rem;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+#WWPARA{
+    text-align: justify;
+    font-size: 18px;
+    padding: 28px;
+    line-height: 2rem;
+}
+/*  end of imagings sliding paragraph section */
+
+.previous_customers{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 3rem;
+    background-color: aliceblue;
+    
+}
+
+    
+ h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+
+ .section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 20rem;
+
+}
+
+.design{
+    background-color: black;
+    width: auto;
+    height: 19rem;
+    top: 5rem;
+}
+
+.links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: block;
+    margin-left: 2rem;
+    font-family: sans-serif;
+    color: blue;
+    
+}
+
+
+
+.container_header2{
+    background-color:gray;
+    
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    background-image:linear-gradient(rgba(4, 22, 30, 0.7),rgba(4, 27, 30, 0.7)), url(../images/desktop\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid thick black;
+
+}
+
+#ER{
+    text-align: center;
+    padding: 20px;
+    margin-top: 8rem;
+    font-size: 10rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+}
+/* contact-form section */
+
+.contact_box{
+    width: 500px;
+    background-color: black;
+    box-shadow: 0 0 20px 0 #999;top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-top: 90px;
+}
+
+form{
+    margin: 35px;
+}
+
+/* inputfield section */
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 14px;
+    outline: none;
+    border: 1px solid #777;
+}
+/* end of inputfield section */
+
+/* textarea section */
+.textarea-field{
+    height: 150px;
+    padding-bottom: 10px;
+}
+/*  end of textarea section */
+
+/* button style section*/
+.btn{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    border: none;
+    cursor: pointer; 
+}
+/*  end of button style section*/
+
+/*  end of contact-form section */
+
+.information{
+    width: 500px;
+    height: 550px;
+    background-color:whitesmoke;
+    margin-left: 800px;
+    bottom: 180px;
+    position: relative;  
+}
+#location{
+    color:black ;
+    margin-top: 6rem;
+    margin-left: 13rem;
+}
+#list li{
+    color: black;
+}
+
+
+#info{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color:black;
+    margin-right: 3rem;
+    
+    font-size: 2rem;
+}
+.image .facebook{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    margin-left: 8rem;
+    
+}
+
+
+/* product cover image section */
+ .PB{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(4, 22, 30, 0.7),rgba(4, 27, 30, 0.7)), url(../images/dell-xps-13-9310-6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} 
+/* h1 style */
+.PB h1{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 7rem;
+    font-size: 1.6rem;
+}
+/* end of h1 style */
+
+/* end of product cover image section */
+
+
+/* styling of the product section */
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+     margin-top: 2rem; 
+     background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* product box*/
+.p_box{
+    width: 100%;
+    height: 30rem;
+    margin: 3rem;
+    background-color:white;
+}
+/*  end of product box*/
+
+/* product box image */
+.p_box img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+/*  end of product box image */
+
+/* butting section */
+#btn{
+    width: 9rem;
+    height: 2rem;
+    background-color: orange;
+    border-style: dashed;
+    margin-left: 7rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    
+}
+/*end of  butting section */
+
+/* price section */
+#price_2{
+    text-align: center;
+    margin-top:  13px;
+    font-size: 1.4rem;
+    color:blue;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+/* end of price section */
+
+/* paragraph styning */
+.para{
+    text-align: center;
+    color:black;
+}
+/*  end of paragraph styning */
+
+/*end of  styling of the product section */
+
+/* footer section */
+.F_T{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    height: 18rem;
+}
+
+/* footer box section */
+ .company{
+    
+     width: 20rem;
+     height: 10rem;
+     margin: 5px;
+
+ }
+
+ .T_F{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 6rem;
+
+
+ }
+
+ .NS a{
+     display: block;
+     color: blue;
+     
+ }
+
+ OL li{
+     display: block;
+     color: white;
+ }
+
+ .L_T{
+    width: 100%;
+    height: 3rem;
+    background-color:pink;
+    padding: 1rem;
+
+ }
+ /* end of footer section */
+
+/* about us section */
+ .A_U{
+     width: 100%;
+     height: 80vh;
+     background-image:linear-gradient(rgba(4, 22, 30, 0.7),rgba(4, 27, 30, 0.7)), url(../images/9fbHKqVMEZM5tcZjct5GaT-1200-80.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ /* our mission, vission & achievements section */
+
+ .About_us{
+     display: flex;
+     justify-content: space-evenly;
+     position: relative;
+     
+     margin: 2rem;
+ }
+
+ .box{
+    width: 20rem;
+    height: 20rem;
+     background-color:white;
+  
+ }
+ /*  end of our mission, vission & achievements section */
+ 
+
+ .a_m img{
+     width: 5rem;
+     height: 5rem;
+     padding: 1rem;
+     object-fit: cover;
+     margin-left: 6.5rem;
+ }
+ /* end of about us section */
+
+ /* testimounial section */
+
+ .T_S{
+     display: flex;
+     position: relative;
+     justify-content: space-evenly;
+     border-bottom-left-radius: 2rem;
+     background-color: transparent;
+     
+     
+    
+ }
+/* testimounial image styling */
+ .test_image{
+     width: 26rem;
+     height: 26rem;
+     margin-bottom: 1rem;
+     border-bottom-left-radius: 1rem;
+     border-top-right-radius: 1rem;  
+     margin: 3rem;
+  
+ }
+
+ #senatta{
+     width: 20rem;
+     height: 20rem;
+     border-radius: 50%;
+     margin-left: 1.4rem;
+     border: solid thick white;
+     object-fit: fill;
+     
+ }
+/* end of testimounial styling image */
+
+
+     /* our team section */
+     .Team{
+         display: flex;
+         background-color: transparent;
+         background-size: cover;
+         background-repeat: no-repeat;
+         justify-content: space-evenly;
+         position: relative;
+        
+         margin-bottom: 3rem;
+     }
+/* team box section */
+     .Team .team_box{
+        margin-top: 3rem;
+        width: 16rem;
+         margin-top: 1rem;
+         padding: 10px;
+         margin: rem;
+     }
+     /* end of team box section */
+
+     /* team first image */
+     .first_image{
+         overflow: hidden;
+     }
+/* box image */
+     .first_image .box_image{
+         width: 13rem;
+         height: 13rem;
+         margin-top: 15px;
+         border-radius: 50%; 
+         margin-left: 1rem;
+     }
+     /* end of team box section */
+    
+
+@media screen and (max-width:700px) {
+    .preprodocts {
+   flex-direction: column;
+
+    }
+     .product{
+        flex-direction: column;
+    }
+
+    .product .p_box img{
+        width: 80%;
+    }
+    .T_S{
+        flex-direction: column;
+    }
+
+    .T_S .test_image{
+        width: 80%;
+        height: 80%;
+        
+    }
+
+    .sliding-image #WWPARA {
+        flex-direction: column;
+    }
+    footer{
+          width: 100%;
+    }
+   .SS{
+       flex-direction: column;
+   }
+
+
+}
+
+ 
+
+ 
+
+
+    
+
+    
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
